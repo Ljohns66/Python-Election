@@ -78,7 +78,7 @@ with open(output_file, "w") as textfile:
     textfile.write("-----------------------------\n")
     textfile.write(f"Total Months: {Total_Months}\n")
     textfile.write(f"Total Profits: ${Total_Profits}\n")
-    textfile.write(f"Average Change: ${round(average(profit_changes), 2)}\n")
+    textfile.write(f"Average Change: ${Avg_change}\n")
     textfile.write(f"Greatest Increase in Profits: {Max_date} (${Max_change}\n)")   
     textfile.write(f"Greatest Decrease in Profits: {Min_date} (${Min_change})\n")
 
